@@ -1,0 +1,14 @@
+{
+    "name": "demo/todo",
+    "description": "A simple todo packages",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Demo\\Todo\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
